@@ -1,0 +1,35 @@
+# Xcode
+.DS_Store
+build/
+DerivedData/
+xcuserdata/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Swift
+*.swiftdoc
+*.swiftmodule
+*.xcodeproj/
+
+# Objective-C
+*.hmap
+
+# App icons
+AppIcon.appiconset/
+
+# Build products and log files
+*.o
+*.swp
+*.xcworkspace
+*.xctestrun
+*.xcuserstate
+*.plist
+*.ipa
+*.dSYM.zip
+*.xcarchive
+
+# Localization
+*.strings
+*.storyboard
