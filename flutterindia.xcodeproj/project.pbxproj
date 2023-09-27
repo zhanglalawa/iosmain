@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		849746332A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 849746322A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.m */; };
+		8497464B2A9F59AC00DED4CE /* libDFActionLivenessDetector.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 849746362A9F59AB00DED4CE /* libDFActionLivenessDetector.a */; };
+		8497464C2A9F59AC00DED4CE /* Localization.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 849746382A9F59AB00DED4CE /* Localization.bundle */; };
+		8497464D2A9F59AC00DED4CE /* DFLicense in Resources */ = {isa = PBXBuildFile; fileRef = 849746392A9F59AB00DED4CE /* DFLicense */; };
+		8497464E2A9F59AC00DED4CE /* YFGIFImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497463B2A9F59AB00DED4CE /* YFGIFImageView.m */; };
+		8497464F2A9F59AC00DED4CE /* DFActionfaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849746402A9F59AB00DED4CE /* DFActionfaceViewController.m */; };
+		849746502A9F59AC00DED4CE /* DFActionLivenessController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849746412A9F59AB00DED4CE /* DFActionLivenessController.m */; };
+		849746512A9F59AC00DED4CE /* df_liveness_resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 849746442A9F59AB00DED4CE /* df_liveness_resource.bundle */; };
+		849746522A9F59AC00DED4CE /* NSBundle+Localization.m in Sources */ = {isa = PBXBuildFile; fileRef = 849746472A9F59AB00DED4CE /* NSBundle+Localization.m */; };
+		849746532A9F59AC00DED4CE /* NSObject+DFAccess.m in Sources */ = {isa = PBXBuildFile; fileRef = 849746482A9F59AB00DED4CE /* NSObject+DFAccess.m */; };
+		849746542A9F59AC00DED4CE /* DFCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8497464A2A9F59AB00DED4CE /* DFCircleView.m */; };
+		849746562A9F5A9100DED4CE /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849746552A9F5A9100DED4CE /* VideoToolbox.framework */; };
+		849746582A9F5A9F00DED4CE /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 849746572A9F5A9F00DED4CE /* libbz2.tbd */; };
+		8497465A2A9F5AA900DED4CE /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 849746592A9F5AA900DED4CE /* libz.tbd */; };
+		8497465C2A9F5AB800DED4CE /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8497465B2A9F5AB800DED4CE /* libiconv.tbd */; };
+		8497465E2A9F5ACA00DED4CE /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8497465D2A9F5ACA00DED4CE /* libz.1.2.5.tbd */; };
+		84986EDB2AA1949300593941 /* FaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84986EDA2AA1949300593941 /* FaceViewController.m */; };
+		84986EDE2AA1D03F00593941 /* DFAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84986EDD2AA1D03F00593941 /* DFAlertView.m */; };
+		84E963E52A8E52800005ECD3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E963E42A8E52800005ECD3 /* AppDelegate.m */; };
+		84E963F02A8E52820005ECD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E963EF2A8E52820005ECD3 /* Assets.xcassets */; };
+		84E963F32A8E52820005ECD3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E963F12A8E52820005ECD3 /* LaunchScreen.storyboard */; };
+		84E963F62A8E52820005ECD3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E963F52A8E52820005ECD3 /* main.m */; };
+		F0BEAEB7E72C371438D84DA4 /* libPods-flutterindia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE24E7AB88DC7985509612D0 /* libPods-flutterindia.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A7F429072DBDB00E19ED499 /* Pods-flutterindia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterindia.debug.xcconfig"; path = "Target Support Files/Pods-flutterindia/Pods-flutterindia.debug.xcconfig"; sourceTree = "<group>"; };
+		849746312A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IndiaFlutterBoostDelegate.h; sourceTree = "<group>"; };
+		849746322A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IndiaFlutterBoostDelegate.m; sourceTree = "<group>"; };
+		849746352A9F59AB00DED4CE /* DFActionfaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFActionfaceViewController.h; sourceTree = "<group>"; };
+		849746362A9F59AB00DED4CE /* libDFActionLivenessDetector.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libDFActionLivenessDetector.a; sourceTree = "<group>"; };
+		849746372A9F59AB00DED4CE /* DFActionLivenessController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFActionLivenessController.h; sourceTree = "<group>"; };
+		849746382A9F59AB00DED4CE /* Localization.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Localization.bundle; sourceTree = "<group>"; };
+		849746392A9F59AB00DED4CE /* DFLicense */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = DFLicense; sourceTree = "<group>"; };
+		8497463A2A9F59AB00DED4CE /* DFLocalizationsHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLocalizationsHeader.h; sourceTree = "<group>"; };
+		8497463B2A9F59AB00DED4CE /* YFGIFImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFGIFImageView.m; sourceTree = "<group>"; };
+		8497463C2A9F59AB00DED4CE /* DFCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFCircleView.h; sourceTree = "<group>"; };
+		8497463D2A9F59AB00DED4CE /* NSObject+DFAccess.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+DFAccess.h"; sourceTree = "<group>"; };
+		8497463E2A9F59AB00DED4CE /* NSBundle+Localization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+Localization.h"; sourceTree = "<group>"; };
+		8497463F2A9F59AB00DED4CE /* DFLivenessEnumType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLivenessEnumType.h; sourceTree = "<group>"; };
+		849746402A9F59AB00DED4CE /* DFActionfaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFActionfaceViewController.m; sourceTree = "<group>"; };
+		849746412A9F59AB00DED4CE /* DFActionLivenessController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFActionLivenessController.m; sourceTree = "<group>"; };
+		849746422A9F59AB00DED4CE /* YFGIFImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFGIFImageView.h; sourceTree = "<group>"; };
+		849746432A9F59AB00DED4CE /* DFLivenessCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFLivenessCommon.h; sourceTree = "<group>"; };
+		849746442A9F59AB00DED4CE /* df_liveness_resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = df_liveness_resource.bundle; sourceTree = "<group>"; };
+		849746452A9F59AB00DED4CE /* DFActionLivenessDetector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFActionLivenessDetector.h; sourceTree = "<group>"; };
+		849746462A9F59AB00DED4CE /* DFActionLivenessDetectorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFActionLivenessDetectorDelegate.h; sourceTree = "<group>"; };
+		849746472A9F59AB00DED4CE /* NSBundle+Localization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+Localization.m"; sourceTree = "<group>"; };
+		849746482A9F59AB00DED4CE /* NSObject+DFAccess.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+DFAccess.m"; sourceTree = "<group>"; };
+		849746492A9F59AB00DED4CE /* DFImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DFImage.h; sourceTree = "<group>"; };
+		8497464A2A9F59AB00DED4CE /* DFCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DFCircleView.m; sourceTree = "<group>"; };
+		849746552A9F5A9100DED4CE /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = System/Library/Frameworks/VideoToolbox.framework; sourceTree = SDKROOT; };
+		849746572A9F5A9F00DED4CE /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
+		849746592A9F5AA900DED4CE /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		8497465B2A9F5AB800DED4CE /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		8497465D2A9F5ACA00DED4CE /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		84986ED92AA1949300593941 /* FaceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FaceViewController.h; sourceTree = "<group>"; };
+		84986EDA2AA1949300593941 /* FaceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceViewController.m; sourceTree = "<group>"; };
+		84986EDC2AA1D03E00593941 /* DFAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DFAlertView.h; path = ../../../../Downloads/DFActionLiveness_iOS_V2.1.3_Test_en_20221209/DFActionLivenessSample/DFActionLivenessSample/DFAlertView.h; sourceTree = "<group>"; };
+		84986EDD2AA1D03F00593941 /* DFAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DFAlertView.m; path = ../../../../Downloads/DFActionLiveness_iOS_V2.1.3_Test_en_20221209/DFActionLivenessSample/DFActionLivenessSample/DFAlertView.m; sourceTree = "<group>"; };
+		84E963E02A8E52800005ECD3 /* flutterindia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flutterindia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E963E32A8E52800005ECD3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E963E42A8E52800005ECD3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E963EF2A8E52820005ECD3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E963F22A8E52820005ECD3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E963F42A8E52820005ECD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E963F52A8E52820005ECD3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D4D2D0AE06333469C44472DC /* Pods-flutterindia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flutterindia.release.xcconfig"; path = "Target Support Files/Pods-flutterindia/Pods-flutterindia.release.xcconfig"; sourceTree = "<group>"; };
+		EE24E7AB88DC7985509612D0 /* libPods-flutterindia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-flutterindia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E963DD2A8E52800005ECD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8497465E2A9F5ACA00DED4CE /* libz.1.2.5.tbd in Frameworks */,
+				8497465C2A9F5AB800DED4CE /* libiconv.tbd in Frameworks */,
+				8497465A2A9F5AA900DED4CE /* libz.tbd in Frameworks */,
+				849746582A9F5A9F00DED4CE /* libbz2.tbd in Frameworks */,
+				849746562A9F5A9100DED4CE /* VideoToolbox.framework in Frameworks */,
+				8497464B2A9F59AC00DED4CE /* libDFActionLivenessDetector.a in Frameworks */,
+				F0BEAEB7E72C371438D84DA4 /* libPods-flutterindia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		443E8F0F5632A245606EFDC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4A7F429072DBDB00E19ED499 /* Pods-flutterindia.debug.xcconfig */,
+				D4D2D0AE06333469C44472DC /* Pods-flutterindia.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		849746302A8F14BC00DED4CE /* boost */ = {
+			isa = PBXGroup;
+			children = (
+				849746312A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.h */,
+				849746322A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.m */,
+			);
+			path = boost;
+			sourceTree = "<group>";
+		};
+		849746342A9F59AB00DED4CE /* libDFActionLiveness */ = {
+			isa = PBXGroup;
+			children = (
+				849746352A9F59AB00DED4CE /* DFActionfaceViewController.h */,
+				849746362A9F59AB00DED4CE /* libDFActionLivenessDetector.a */,
+				849746372A9F59AB00DED4CE /* DFActionLivenessController.h */,
+				849746382A9F59AB00DED4CE /* Localization.bundle */,
+				849746392A9F59AB00DED4CE /* DFLicense */,
+				8497463A2A9F59AB00DED4CE /* DFLocalizationsHeader.h */,
+				8497463B2A9F59AB00DED4CE /* YFGIFImageView.m */,
+				8497463C2A9F59AB00DED4CE /* DFCircleView.h */,
+				8497463D2A9F59AB00DED4CE /* NSObject+DFAccess.h */,
+				8497463E2A9F59AB00DED4CE /* NSBundle+Localization.h */,
+				8497463F2A9F59AB00DED4CE /* DFLivenessEnumType.h */,
+				849746402A9F59AB00DED4CE /* DFActionfaceViewController.m */,
+				849746412A9F59AB00DED4CE /* DFActionLivenessController.m */,
+				849746422A9F59AB00DED4CE /* YFGIFImageView.h */,
+				849746432A9F59AB00DED4CE /* DFLivenessCommon.h */,
+				849746442A9F59AB00DED4CE /* df_liveness_resource.bundle */,
+				849746452A9F59AB00DED4CE /* DFActionLivenessDetector.h */,
+				849746462A9F59AB00DED4CE /* DFActionLivenessDetectorDelegate.h */,
+				849746472A9F59AB00DED4CE /* NSBundle+Localization.m */,
+				849746482A9F59AB00DED4CE /* NSObject+DFAccess.m */,
+				849746492A9F59AB00DED4CE /* DFImage.h */,
+				8497464A2A9F59AB00DED4CE /* DFCircleView.m */,
+			);
+			path = libDFActionLiveness;
+			sourceTree = "<group>";
+		};
+		84E963D72A8E52800005ECD3 = {
+			isa = PBXGroup;
+			children = (
+				84E963E22A8E52800005ECD3 /* flutterindia */,
+				84E963E12A8E52800005ECD3 /* Products */,
+				443E8F0F5632A245606EFDC4 /* Pods */,
+				896D75E4DEC76EBA63C1BF41 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E963E12A8E52800005ECD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E963E02A8E52800005ECD3 /* flutterindia.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E963E22A8E52800005ECD3 /* flutterindia */ = {
+			isa = PBXGroup;
+			children = (
+				84986EDC2AA1D03E00593941 /* DFAlertView.h */,
+				84986EDD2AA1D03F00593941 /* DFAlertView.m */,
+				849746302A8F14BC00DED4CE /* boost */,
+				84E963E32A8E52800005ECD3 /* AppDelegate.h */,
+				84E963E42A8E52800005ECD3 /* AppDelegate.m */,
+				84E963EF2A8E52820005ECD3 /* Assets.xcassets */,
+				84E963F12A8E52820005ECD3 /* LaunchScreen.storyboard */,
+				84E963F42A8E52820005ECD3 /* Info.plist */,
+				84E963F52A8E52820005ECD3 /* main.m */,
+				84986ED92AA1949300593941 /* FaceViewController.h */,
+				84986EDA2AA1949300593941 /* FaceViewController.m */,
+			);
+			path = flutterindia;
+			sourceTree = "<group>";
+		};
+		896D75E4DEC76EBA63C1BF41 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8497465D2A9F5ACA00DED4CE /* libz.1.2.5.tbd */,
+				8497465B2A9F5AB800DED4CE /* libiconv.tbd */,
+				849746592A9F5AA900DED4CE /* libz.tbd */,
+				849746572A9F5A9F00DED4CE /* libbz2.tbd */,
+				849746552A9F5A9100DED4CE /* VideoToolbox.framework */,
+				849746342A9F59AB00DED4CE /* libDFActionLiveness */,
+				EE24E7AB88DC7985509612D0 /* libPods-flutterindia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E963DF2A8E52800005ECD3 /* flutterindia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E963F92A8E52820005ECD3 /* Build configuration list for PBXNativeTarget "flutterindia" */;
+			buildPhases = (
+				AD16E26F28CD65B8DEB4329A /* [CP] Check Pods Manifest.lock */,
+				7840D8BDC2F18E964AD3D9BE /* [CP-User] Run Flutter Build flutter_module Script */,
+				84E963DC2A8E52800005ECD3 /* Sources */,
+				84E963DD2A8E52800005ECD3 /* Frameworks */,
+				84E963DE2A8E52800005ECD3 /* Resources */,
+				ED8BE91E845438FF2D1D17BD /* [CP-User] Embed Flutter Build flutter_module Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flutterindia;
+			productName = flutterindia;
+			productReference = 84E963E02A8E52800005ECD3 /* flutterindia.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E963D82A8E52800005ECD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					84E963DF2A8E52800005ECD3 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 84E963DB2A8E52800005ECD3 /* Build configuration list for PBXProject "flutterindia" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E963D72A8E52800005ECD3;
+			productRefGroup = 84E963E12A8E52800005ECD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E963DF2A8E52800005ECD3 /* flutterindia */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E963DE2A8E52800005ECD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E963F32A8E52820005ECD3 /* LaunchScreen.storyboard in Resources */,
+				84E963F02A8E52820005ECD3 /* Assets.xcassets in Resources */,
+				8497464D2A9F59AC00DED4CE /* DFLicense in Resources */,
+				849746512A9F59AC00DED4CE /* df_liveness_resource.bundle in Resources */,
+				8497464C2A9F59AC00DED4CE /* Localization.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7840D8BDC2F18E964AD3D9BE /* [CP-User] Run Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Run Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		AD16E26F28CD65B8DEB4329A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-flutterindia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED8BE91E845438FF2D1D17BD /* [CP-User] Embed Flutter Build flutter_module Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "[CP-User] Embed Flutter Build flutter_module Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_module/.ios/Flutter/flutter_export_environment.sh\"\nexport VERBOSE_SCRIPT_LOGGING=1 && \"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh embed_and_thin";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E963DC2A8E52800005ECD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				849746522A9F59AC00DED4CE /* NSBundle+Localization.m in Sources */,
+				849746542A9F59AC00DED4CE /* DFCircleView.m in Sources */,
+				849746332A8F1AC500DED4CE /* IndiaFlutterBoostDelegate.m in Sources */,
+				84986EDE2AA1D03F00593941 /* DFAlertView.m in Sources */,
+				84E963E52A8E52800005ECD3 /* AppDelegate.m in Sources */,
+				849746502A9F59AC00DED4CE /* DFActionLivenessController.m in Sources */,
+				84E963F62A8E52820005ECD3 /* main.m in Sources */,
+				8497464E2A9F59AC00DED4CE /* YFGIFImageView.m in Sources */,
+				84986EDB2AA1949300593941 /* FaceViewController.m in Sources */,
+				8497464F2A9F59AC00DED4CE /* DFActionfaceViewController.m in Sources */,
+				849746532A9F59AC00DED4CE /* NSObject+DFAccess.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E963F12A8E52820005ECD3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E963F22A8E52820005ECD3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E963F72A8E52820005ECD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84E963F82A8E52820005ECD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E963FA2A8E52820005ECD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7F429072DBDB00E19ED499 /* Pods-flutterindia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TMRFFKX4XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flutterindia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libDFActionLiveness",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FlutterPluginRegistrant\"",
+					"-l\"c++\"",
+					"-l\"device_info_plus\"",
+					"-l\"flutter_boost\"",
+					"-l\"flutter_native_contact_picker\"",
+					"-l\"shared_preferences_foundation\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sathi.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		84E963FB2A8E52820005ECD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4D2D0AE06333469C44472DC /* Pods-flutterindia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TMRFFKX4XS;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = flutterindia/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libDFActionLiveness",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"FlutterPluginRegistrant\"",
+					"-l\"c++\"",
+					"-l\"device_info_plus\"",
+					"-l\"flutter_boost\"",
+					"-l\"flutter_native_contact_picker\"",
+					"-l\"shared_preferences_foundation\"",
+					"-lstdc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.sathi.in;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TVOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E963DB2A8E52800005ECD3 /* Build configuration list for PBXProject "flutterindia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E963F72A8E52820005ECD3 /* Debug */,
+				84E963F82A8E52820005ECD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E963F92A8E52820005ECD3 /* Build configuration list for PBXNativeTarget "flutterindia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E963FA2A8E52820005ECD3 /* Debug */,
+				84E963FB2A8E52820005ECD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E963D82A8E52800005ECD3 /* Project object */;
+}
